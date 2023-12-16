@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  background: linear-gradient(to right, #181c25, #2c3d66);
+  position: relative;
+}
+
+#nav {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+#nav img {
+  width: 140px;
+  padding: 20px 30px;
+}
+
+#nav i {
+  font-size: 20px;
+}
+
+#nav > i {
+  background-color: #ffffff75;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+#nav h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#navpart2 :nth-child(1) {
+  border-bottom: 3px solid #fff;
+}
+
+#navpart2 {
+  display: flex;
+  gap: 30px;
+}
+
+#navpart3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#navpart3 i {
+  color: #fff;
+}
+
+#part1 {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+#part1 i {
+  color: #ffd700;
+}
+
+#part1 {
+  color: #fff;
+}
+
+#part1 p {
+  margin-top: 10px;
+  font-size: 10px;
+  width: 50%;
+}
+
+#part1 h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#part1 h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+.im img {
+  position: absolute;
+  top: 22%;
+  right: 7%;
+  width: 450px;
+  height: 300px;
+  transform: rotate(-30deg);
+  filter: brightness(1.5);
+}
